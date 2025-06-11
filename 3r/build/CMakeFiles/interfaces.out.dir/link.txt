@@ -1,1 +1,0 @@
-/usr/bin/clang++ -Xlinker --dependency-file=CMakeFiles/interfaces.out.dir/link.d CMakeFiles/interfaces.out.dir/main.cpp.o CMakeFiles/interfaces.out.dir/loghandler.cpp.o CMakeFiles/interfaces.out.dir/logger.cpp.o CMakeFiles/interfaces.out.dir/logfilter.cpp.o -o interfaces.out

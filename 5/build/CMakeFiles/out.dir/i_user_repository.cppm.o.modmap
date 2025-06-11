@@ -1,3 +1,0 @@
--x c++-module
--fmodule-output=CMakeFiles/out.dir/IUserRepository.pcm
--fmodule-file=User=CMakeFiles/out.dir/User.pcm

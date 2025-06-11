@@ -1,3 +1,0 @@
--x c++-module
--fmodule-output=CMakeFiles/out.dir/Save.pcm
--fmodule-file=Commands=CMakeFiles/out.dir/Commands.pcm

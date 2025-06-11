@@ -1,6 +1,0 @@
--fmodule-file=UserRepository=CMakeFiles/out.dir/UserRepository.pcm
--fmodule-file=AuthService=CMakeFiles/out.dir/AuthService.pcm
--fmodule-file=DataRepository=CMakeFiles/out.dir/DataRepository.pcm
--fmodule-file=IAuthService=CMakeFiles/out.dir/IAuthService.pcm
--fmodule-file=IDataRepository=CMakeFiles/out.dir/IDataRepository.pcm
--fmodule-file=User=CMakeFiles/out.dir/User.pcm

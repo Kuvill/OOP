@@ -1,3 +1,0 @@
-/home/kuvil/Project/University/OOP/practice/5/build/CMakeFiles/out.dir
-/home/kuvil/Project/University/OOP/practice/5/build/CMakeFiles/edit_cache.dir
-/home/kuvil/Project/University/OOP/practice/5/build/CMakeFiles/rebuild_cache.dir

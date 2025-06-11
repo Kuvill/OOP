@@ -17,7 +17,6 @@ int main() {
 
 	{ std::cout << "\n\n\t---\n\nRegex Filter with File Handler\n";
 		ReLogFilter filter( std::regex(":[^:]*\n[^FI]*") );
-		// ReLogFilter filter( std::regex(": .*$") );
 		FileHandler handler("regex.log");
 		Logger log( &filter, &handler);
 		log.log( text );

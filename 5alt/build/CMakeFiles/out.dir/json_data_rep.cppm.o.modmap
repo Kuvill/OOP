@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output=CMakeFiles/out.dir/JsonDataRepository.pcm
+-fmodule-file=IDataRepository=CMakeFiles/out.dir/IDataRepository.pcm

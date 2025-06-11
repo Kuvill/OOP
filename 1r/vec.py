@@ -8,7 +8,6 @@ class Point2d:
 
     # Magic funcs
 
-    # mb use there *args insead of x, y
     def __init__(self, x: int, y: int):
         self.__x: int = x
         self.__y: int = y

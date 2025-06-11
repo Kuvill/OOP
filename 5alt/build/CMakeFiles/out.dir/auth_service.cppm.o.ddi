@@ -1,0 +1,24 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/auth_service.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "JsonAuthService",
+          "source-path": "/home/kuvil/Project/University/OOP/practice/5alt/auth_service.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "IAuthService"
+        },
+        {
+          "logical-name": "IUserRepository"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

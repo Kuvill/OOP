@@ -8,6 +8,7 @@ import AuthService;
 
 int main() {
     User usr;
+    std::cout << "Input user. ({***} - optional. Entry '!' as filler)\nid name login password {email} {address}\n";
     std::cin >> usr;
     AuthService service;
 
@@ -26,7 +27,7 @@ int main() {
         if( us )
             service.sign_in( us.value() );
         else 
-            std::println( "error occured" );
+            std::println( "error occured while logging" );
     }
 
     std::println( "uesr logined: {}", service.is_authorized() );

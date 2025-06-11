@@ -29,12 +29,17 @@ public:
     DataRepository( const char* path = REP_PATH ) {
         _path = path;
         _tmpPath = _path + ".tmp";
-        _rep.open( _path );
+        _rep.open( _path, std::ios::in | std::ios::out | std::ios::app );
         assert( _rep.good() );
         assert( _rep.is_open() );
+
+        recordsCount = std::count(std::istreambuf_iterator<char>(_rep), std::istreambuf_iterator<char>(), '\n');
+        _rep.clear();
+        _rep.seekg(0);
     }
 
     ~DataRepository() {
+        _rep.flush();
         _rep.close();
     }
 
@@ -69,6 +74,7 @@ public:
         if( !get_by_id( usr.getId() ) ) {
             std::println("new user added");
             ++recordsCount;
+            _rep.seekp( 0, std::ios::end );
 
             _rep << usr << '\n';
         } else 

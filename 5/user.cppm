@@ -38,6 +38,7 @@ public:
 };
 
 std::ostream& operator<<( std::ostream& os, const User& usr ) {
+    std::cout << "called operator<<\n";
     os << usr.id << ' ' << usr.name << ' ' << usr.login << ' ' <<
         usr.passwd << ' ' << (usr.email.empty() ? "!" : usr.email) << ' ' <<
         (usr.address.empty() ? "!" : usr.address);

@@ -1,0 +1,7 @@
+-fmodule-file=JsonUserRepository=CMakeFiles/out.dir/JsonUserRepository.pcm
+-fmodule-file=JsonAuthService=CMakeFiles/out.dir/JsonAuthService.pcm
+-fmodule-file=User=CMakeFiles/out.dir/User.pcm
+-fmodule-file=IAuthService=CMakeFiles/out.dir/IAuthService.pcm
+-fmodule-file=IDataRepository=CMakeFiles/out.dir/IDataRepository.pcm
+-fmodule-file=IUserRepository=CMakeFiles/out.dir/IUserRepository.pcm
+-fmodule-file=JsonDataRepository=CMakeFiles/out.dir/JsonDataRepository.pcm

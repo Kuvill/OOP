@@ -1,0 +1,138 @@
+    A       
+   A A      
+  A   A     
+ A AAA A    
+A       A   
+   
+BBBBBBB   
+B    B    
+BBBBB     
+B    B    
+BBBBBBB   
+   
+  CCCCCC   
+ CCC       
+C          
+CC    C    
+ CCCCCCC   
+   
+DDDD     
+D  DD    
+D   DD   
+D    D   
+DDDDDD   
+   
+EEEEEE   
+E        
+EEE      
+E        
+EEEEEE   
+   
+FFFFFF   
+F        
+FFF      
+F        
+F        
+   
+ GGGGGGG    
+GG          
+G  GGGGGG   
+G     GG    
+GGGGGGG     
+   
+H    H   
+H    H   
+HHHHHH   
+H    H   
+H    H   
+   
+IIIIIII   
+   I      
+   I      
+   I      
+IIIIIII   
+   
+   JJJ   
+     J   
+     J   
+JJ	J    
+  JJ     
+   
+K    KKK   
+K  KKK     
+KKKK       
+K  KKK     
+K    KKK   
+   
+L        
+L        
+L        
+L    L   
+LLLLLL   
+   
+ MM    MM    
+ M  M M M    
+M    M   M   
+M        M   
+M        M   
+   
+ NN    N   
+N  N   N   
+N  N   N   
+N   N  N   
+N    NN    
+   
+ OOOOO    
+O     O   
+O     O   
+O     O   
+ OOOOO    
+   
+ PPPPPP   
+ P    P   
+ P PPP    
+ PP       
+ P        
+   
+ QQQQQ    
+Q     Q   
+Q     Q   
+ QQQQQ    
+QQ        
+   
+RRRRRR   
+R    R   
+RRRRR    
+R   RR   
+R    R   
+   
+ SSSSSS   
+S         
+ SSSS     
+     S    
+SSSSS     
+   
+TTTTTTT   
+   T      
+   T      
+   T      
+   T      
+
+UU    UU   
+U      U   
+U      U   
+UU    UU   
+ UUUUUU    
+
+V      V   
+VV    VV   
+ VV  VV    
+  V  V     
+   VV      
+
+W   W   W   
+WW  W  WW   
+ W W W W    
+ W W W W    
+  W   W     
+

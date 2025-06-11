@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/i_auth_service.cpp.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "IAuthService",
+          "source-path": "/home/kuvil/Project/University/OOP/practice/5/i_auth_service.cpp"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "User"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

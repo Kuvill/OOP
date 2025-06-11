@@ -1,0 +1,50 @@
+{
+	"modules" : 
+	{
+		"Commands" : 
+		{
+			"bmi" : "/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/out.dir/Commands.pcm",
+			"is-private" : false
+		},
+		"Keyboard" : 
+		{
+			"bmi" : "/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/out.dir/Keyboard.pcm",
+			"is-private" : false
+		},
+		"Save" : 
+		{
+			"bmi" : "/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/out.dir/Save.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"Commands" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/out.dir/Commands.pcm"
+		},
+		"Keyboard" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/out.dir/Keyboard.pcm"
+		},
+		"Save" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/out.dir/Save.pcm"
+		}
+	},
+	"usages" : 
+	{
+		"Keyboard" : 
+		[
+			"Commands",
+			"Save"
+		],
+		"Save" : 
+		[
+			"Commands"
+		]
+	}
+}

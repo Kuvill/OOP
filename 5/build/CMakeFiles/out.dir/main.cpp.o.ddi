@@ -1,0 +1,17 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/main.cpp.o",
+      "requires": [
+        {
+          "logical-name": "UserRepository"
+        },
+        {
+          "logical-name": "AuthService"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/main.cpp.o.modmap -o CMakeFiles/out.dir/main.cpp.o -c /home/kuvil/Project/University/OOP/practice/5/main.cpp",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/main.cpp",
+  "output": "CMakeFiles/out.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/user.cppm.o.modmap -o CMakeFiles/out.dir/user.cppm.o -c /home/kuvil/Project/University/OOP/practice/5/user.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/user.cppm",
+  "output": "CMakeFiles/out.dir/user.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/i_data_repository.cppm.o.modmap -o CMakeFiles/out.dir/i_data_repository.cppm.o -c /home/kuvil/Project/University/OOP/practice/5/i_data_repository.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/i_data_repository.cppm",
+  "output": "CMakeFiles/out.dir/i_data_repository.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/i_user_repository.cppm.o.modmap -o CMakeFiles/out.dir/i_user_repository.cppm.o -c /home/kuvil/Project/University/OOP/practice/5/i_user_repository.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/i_user_repository.cppm",
+  "output": "CMakeFiles/out.dir/i_user_repository.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/i_auth_service.cpp.o.modmap -o CMakeFiles/out.dir/i_auth_service.cpp.o -c /home/kuvil/Project/University/OOP/practice/5/i_auth_service.cpp",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/i_auth_service.cpp",
+  "output": "CMakeFiles/out.dir/i_auth_service.cpp.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/data_repository.cppm.o.modmap -o CMakeFiles/out.dir/data_repository.cppm.o -c /home/kuvil/Project/University/OOP/practice/5/data_repository.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/data_repository.cppm",
+  "output": "CMakeFiles/out.dir/data_repository.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/auth_service.cppm.o.modmap -o CMakeFiles/out.dir/auth_service.cppm.o -c /home/kuvil/Project/University/OOP/practice/5/auth_service.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/auth_service.cppm",
+  "output": "CMakeFiles/out.dir/auth_service.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/5/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/UserRepository.cpp.o.modmap -o CMakeFiles/out.dir/UserRepository.cpp.o -c /home/kuvil/Project/University/OOP/practice/5/UserRepository.cpp",
+  "file": "/home/kuvil/Project/University/OOP/practice/5/UserRepository.cpp",
+  "output": "CMakeFiles/out.dir/UserRepository.cpp.o"
+}
+]

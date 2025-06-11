@@ -1,0 +1,99 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/out.dir/UserRepository.cpp.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/UserRepository.cpp",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/auth_service.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/auth_service.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/data_repository.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/data_repository.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/i_auth_service.cpp.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/i_auth_service.cpp",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/i_data_repository.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/i_data_repository.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/i_user_repository.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/i_user_repository.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/user.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/user.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/kuvil/Project/University/OOP/practice/5/build",
+	"dir-cur-src" : "/home/kuvil/Project/University/OOP/practice/5",
+	"dir-top-bld" : "/home/kuvil/Project/University/OOP/practice/5/build",
+	"dir-top-src" : "/home/kuvil/Project/University/OOP/practice/5",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/kuvil/Project/University/OOP/practice/5/build/CMakeFiles/out.dir",
+	"sources" : 
+	{
+		"CMakeFiles/out.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/kuvil/Project/University/OOP/practice/5/main.cpp"
+		}
+	}
+}

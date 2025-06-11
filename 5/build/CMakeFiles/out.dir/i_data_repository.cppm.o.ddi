@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/i_data_repository.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "IDataRepository",
+          "source-path": "/home/kuvil/Project/University/OOP/practice/5/i_data_repository.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

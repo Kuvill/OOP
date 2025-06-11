@@ -1,5 +1,5 @@
 {
-    "buffer": "ab",
+    "buffer": "abab",
     "keyMap": {
         "a": "Print 'a'",
         "b": "Print 'b'",

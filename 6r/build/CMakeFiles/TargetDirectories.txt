@@ -1,0 +1,3 @@
+/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/out.dir
+/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/edit_cache.dir
+/home/kuvil/Project/University/OOP/practice/6gpt/build/CMakeFiles/rebuild_cache.dir

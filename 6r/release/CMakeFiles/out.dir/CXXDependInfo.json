@@ -1,0 +1,59 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/out.dir/commands.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/6r/commands.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/keyboard.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/6r/keyboard.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/save.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/6r/save.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/kuvil/Project/University/OOP/practice/6r/release",
+	"dir-cur-src" : "/home/kuvil/Project/University/OOP/practice/6r",
+	"dir-top-bld" : "/home/kuvil/Project/University/OOP/practice/6r/release",
+	"dir-top-src" : "/home/kuvil/Project/University/OOP/practice/6r",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/kuvil/Project/University/OOP/practice/6r/release/CMakeFiles/out.dir",
+	"sources" : 
+	{
+		"CMakeFiles/out.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/kuvil/Project/University/OOP/practice/6r/main.cpp"
+		}
+	}
+}

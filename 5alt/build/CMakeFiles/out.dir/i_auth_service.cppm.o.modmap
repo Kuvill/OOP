@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output=CMakeFiles/out.dir/IAuthService.pcm
+-fmodule-file=User=CMakeFiles/out.dir/User.pcm

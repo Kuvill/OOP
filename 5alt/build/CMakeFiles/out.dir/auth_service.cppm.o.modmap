@@ -1,0 +1,6 @@
+-x c++-module
+-fmodule-output=CMakeFiles/out.dir/JsonAuthService.pcm
+-fmodule-file=IAuthService=CMakeFiles/out.dir/IAuthService.pcm
+-fmodule-file=IUserRepository=CMakeFiles/out.dir/IUserRepository.pcm
+-fmodule-file=IDataRepository=CMakeFiles/out.dir/IDataRepository.pcm
+-fmodule-file=User=CMakeFiles/out.dir/User.pcm

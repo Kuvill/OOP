@@ -1,0 +1,19 @@
+# ninja log v6
+4	252	1749659514271042105	CMakeFiles/out.dir/main.cpp.o.ddi	b2f9679521a8afb5
+6	286	1749659514273815939	CMakeFiles/out.dir/keyboard.cppm.o.ddi	d5880fea76cd2abb
+5	319	1749659514273155680	CMakeFiles/out.dir/save.cppm.o.ddi	a5d5830ebfd2a919
+4	324	1749659514272042609	CMakeFiles/out.dir/commands.cppm.o.ddi	f4bbf112aae41c41
+324	339	1749659514605218283	CMakeFiles/out.dir/CXX.dd	ba7c92130eeee05e
+324	339	1749659514605218283	/home/kuvil/Project/University/OOP/practice/6r/release/CMakeFiles/out.dir/CXXModules.json	ba7c92130eeee05e
+324	339	1749659514605218283	CMakeFiles/out.dir/main.cpp.o.modmap	ba7c92130eeee05e
+324	339	1749659514605218283	CMakeFiles/out.dir/commands.cppm.o.modmap	ba7c92130eeee05e
+324	339	1749659514605218283	CMakeFiles/out.dir/save.cppm.o.modmap	ba7c92130eeee05e
+324	339	1749659514605218283	CMakeFiles/out.dir/keyboard.cppm.o.modmap	ba7c92130eeee05e
+339	5275	1749659519535651312	CMakeFiles/out.dir/commands.cppm.o	4ce44ff9caad5cd4
+339	5275	1749659519535651312	CMakeFiles/out.dir/Commands.pcm	4ce44ff9caad5cd4
+5276	12008	1749659526259843897	CMakeFiles/out.dir/save.cppm.o	13a5ec3c83b3c4c1
+5276	12008	1749659526259843897	CMakeFiles/out.dir/Save.pcm	13a5ec3c83b3c4c1
+12008	15183	1749659529441301599	CMakeFiles/out.dir/keyboard.cppm.o	b3d8078d2a194373
+12008	15183	1749659529441301599	CMakeFiles/out.dir/Keyboard.pcm	b3d8078d2a194373
+15183	16453	1749659529450305676	CMakeFiles/out.dir/main.cpp.o	89a0833dcafbd187
+16453	16624	1749659530719878277	out	6b4f438d57e737f8

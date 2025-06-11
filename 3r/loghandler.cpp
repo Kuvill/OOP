@@ -57,7 +57,7 @@ void ConsoleHandler::handle( const std::string& text ) {
 	_os << text;
 }
 
-/* --- Console Handler --- */
+/* --- SystemLog Handler --- */
 
 SyslogHandler::SyslogHandler( const std::string appName ) : _appName(appName) {
 	openlog( _appName.c_str(), LOG_PID, LOG_USER );

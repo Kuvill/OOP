@@ -1,0 +1,17 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/main.cpp.o",
+      "requires": [
+        {
+          "logical-name": "Injector"
+        },
+        {
+          "logical-name": "Classes"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

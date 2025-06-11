@@ -8,9 +8,10 @@ class Point2d:
 
     # Magic funcs
 
+    # нет проверки в конструкторе на отрицательные числа
     def __init__(self, x: int, y: int):
-        self.__x: int = x
-        self.__y: int = y
+        self.x = x
+        self.y = y
 
     def __str__(self):
         return f'(x,y): ({self.x}, {self.y})'
@@ -32,10 +33,8 @@ class Point2d:
     def __setitem__(self, index, item):
         if index == 0:
             self.x = item
-            return self.x
         if index == 1:
             self.y = item
-            self.y
         else:
             raise ValueError("Sequence out of range!")
 
@@ -47,7 +46,7 @@ class Point2d:
 
     @x.setter
     def x(self, x):
-        if not (isinstance(x, int) or 0 < x < WIDTH):
+        if not (isinstance(x, int) and 0 < x < WIDTH):
             raise ValueError('x have to be positive')
         self.__x = x
         return self.__x
@@ -58,7 +57,7 @@ class Point2d:
 
     @y.setter
     def y(self, y):
-        if not (isinstance(y, int) or 0 < y < HEIGHT):
+        if not (isinstance(y, int) and 0 < y < HEIGHT):
             raise ValueError('y have to be positive')
         self.__y = y
         return self.__y
@@ -172,7 +171,7 @@ class Vec2d:
     # class metgods
 
     @classmethod
-    def StaticdotProduct(cls, lhs, rhs):
+    def StaticdotProduct(cls, lhs : "Vec2d", rhs : "Vec2d"):
         if isinstance(lhs, Vec2d) and isinstance(rhs, Vec2d):
             return (lhs.x * rhs.x) + (lhs.y * rhs.y)
         raise ValueError("Dot product require Vec2d")
@@ -183,6 +182,9 @@ class Vec2d:
             return Vec2d(vec.x, -vec.y)
         raise ValueError("Cross product require Vec2d")
 
+
+
+p1 = Point2d( -100, -100 );
 
 x1 = int(input("Entry x: "))
 y1 = int(input("Entry y: "))

@@ -1,0 +1,4 @@
+-x c++-module
+-fmodule-output=CMakeFiles/out.dir/IUserRepository.pcm
+-fmodule-file=IDataRepository=CMakeFiles/out.dir/IDataRepository.pcm
+-fmodule-file=User=CMakeFiles/out.dir/User.pcm

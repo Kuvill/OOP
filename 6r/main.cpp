@@ -11,14 +11,22 @@ int main() {
     try {
         VirtualKeyboard keyboard("output.txt");
         
-        // Загружаем предыдущее состояние (если есть)
         ifstream testFile("keyboard_state.json");
         if (testFile.good()) {
             testFile.close();
             keyboard.loadState("keyboard_state.json");
         }
+
+        std::string buf;
+        while( std::getline( buf ) ) {
+            if( buf == "undo " )
+                keyboard.undo();
+            else( buf = "redo" )
+                keyboard.redo
+            else
+                keyboard.pressKey(buf);
+        }
         
-        // Пример использования
         keyboard.pressKey("a");
         keyboard.pressKey("b");
         keyboard.pressKey("c");
@@ -32,10 +40,8 @@ int main() {
         keyboard.undo();
         keyboard.undo();
         
-        // Сохраняем состояние перед выходом
         keyboard.saveState("keyboard_state.json");
         
-        // Выводим текущее состояние
         keyboard.printCurrentState();
         
     } catch (const exception& e) {

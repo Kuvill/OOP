@@ -1,0 +1,27 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/out.dir/json_usr_rep.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "JsonUserRepository",
+          "source-path": "/home/kuvil/Project/University/OOP/practice/5alt/json_usr_rep.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "User"
+        },
+        {
+          "logical-name": "JsonDataRepository"
+        },
+        {
+          "logical-name": "IUserRepository"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

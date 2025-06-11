@@ -1,0 +1,12 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/out.dir/main.cpp.o: dyndep | CMakeFiles/out.dir/Commands.pcm CMakeFiles/out.dir/Save.pcm CMakeFiles/out.dir/Keyboard.pcm
+
+build CMakeFiles/out.dir/commands.cppm.o | CMakeFiles/out.dir/Commands.pcm: dyndep
+  restat = 1
+
+build CMakeFiles/out.dir/save.cppm.o | CMakeFiles/out.dir/Save.pcm: dyndep | CMakeFiles/out.dir/Commands.pcm
+  restat = 1
+
+build CMakeFiles/out.dir/keyboard.cppm.o | CMakeFiles/out.dir/Keyboard.pcm: dyndep | CMakeFiles/out.dir/Commands.pcm CMakeFiles/out.dir/Save.pcm
+  restat = 1
+

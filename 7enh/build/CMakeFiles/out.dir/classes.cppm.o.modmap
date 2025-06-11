@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output=CMakeFiles/out.dir/Classes.pcm
+-fmodule-file=Injector=CMakeFiles/out.dir/Injector.pcm

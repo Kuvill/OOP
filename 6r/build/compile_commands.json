@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/6gpt/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/main.cpp.o.modmap -o CMakeFiles/out.dir/main.cpp.o -c /home/kuvil/Project/University/OOP/practice/6gpt/main.cpp",
+  "file": "/home/kuvil/Project/University/OOP/practice/6gpt/main.cpp",
+  "output": "CMakeFiles/out.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/6gpt/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/commands.cppm.o.modmap -o CMakeFiles/out.dir/commands.cppm.o -c /home/kuvil/Project/University/OOP/practice/6gpt/commands.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/6gpt/commands.cppm",
+  "output": "CMakeFiles/out.dir/commands.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/6gpt/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/save.cppm.o.modmap -o CMakeFiles/out.dir/save.cppm.o -c /home/kuvil/Project/University/OOP/practice/6gpt/save.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/6gpt/save.cppm",
+  "output": "CMakeFiles/out.dir/save.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/6gpt/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/keyboard.cppm.o.modmap -o CMakeFiles/out.dir/keyboard.cppm.o -c /home/kuvil/Project/University/OOP/practice/6gpt/keyboard.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/6gpt/keyboard.cppm",
+  "output": "CMakeFiles/out.dir/keyboard.cppm.o"
+}
+]

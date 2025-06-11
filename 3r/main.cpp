@@ -9,16 +9,21 @@ int main() {
 
 
 	{ std::cout << "Simple Filter with Console output\n\t---\n\n";
-		SimpleLogFilter filter(LogLevel::Warn);
-		ConsoleHandler handler;
-		Logger log( &filter, &handler);
+		auto filter = std::make_shared<SimpleLogFilter>(LogLevel::Warn);
+		auto handler = std::make_shared<ConsoleHandler>();
+		Logger log( filter, handler);
 		log.log( text );
 	}
 
-	{ std::cout << "\n\n\t---\n\nRegex Filter with File Handler\n";
-		ReLogFilter filter( std::regex(":[^:]*\n[^FI]*") );
-		FileHandler handler("regex.log");
-		Logger log( &filter, &handler);
+	{ std::cout << "\n\n\t---\n\nRegex Filter with File Handler and Console\n";
+        std::vector<Filter> filters;
+		filters.emplace_back(std::make_shared<ReLogFilter>( std::regex(":[^:]*\n[^FI]*") ) );
+
+        std::vector<Handler> handlers;
+		handlers.emplace_back( std::make_shared<FileHandler>("regex.log") );
+		handlers.emplace_back( std::make_shared<ConsoleHandler>() );
+    
+		Logger log( filters, handlers);
 		log.log( text );
 	}
 }

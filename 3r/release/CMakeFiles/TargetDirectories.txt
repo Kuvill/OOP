@@ -1,0 +1,3 @@
+/home/kuvil/Project/University/OOP/practice/3eng/release/CMakeFiles/interfaces.out.dir
+/home/kuvil/Project/University/OOP/practice/3eng/release/CMakeFiles/edit_cache.dir
+/home/kuvil/Project/University/OOP/practice/3eng/release/CMakeFiles/rebuild_cache.dir

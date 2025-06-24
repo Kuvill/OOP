@@ -1,12 +1,12 @@
 {
-    "buffer": "abab",
+    "buffer": "abababcaaaazzaaaabcdef",
     "keyMap": {
         "a": "Print 'a'",
         "b": "Print 'b'",
         "c": "Print 'c'",
         "ctrl++": "Increase volume by 20%",
         "ctrl+-": "Decrease volume by 20%",
-        "ctrl+p": "Launch media player",
+        "ctrl+p": "Close media player",
         "d": "Print 'd'",
         "e": "Print 'e'",
         "f": "Print 'f'",
@@ -31,6 +31,6 @@
         "y": "Print 'y'",
         "z": "Print 'z'"
     },
-    "mediaPlaying": false,
-    "volume": 50
+    "mediaPlaying": true,
+    "volume": 70
 }

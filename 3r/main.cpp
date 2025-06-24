@@ -19,6 +19,8 @@ int main() {
 
         { std::cout << "\n\n\t---\n\nRegex Filter with File Handler and Console\n";
             std::vector<Filter> filters;
+
+            // i am taking std::regex, that can throw regex exception itself
             filters.emplace_back(std::make_shared<ReLogFilter>( std::regex(":[^:]*\n[^FI]*") ) );
 
             std::vector<Handler> handlers;
@@ -29,8 +31,9 @@ int main() {
             log.log( text );
         }
 
+        // i throw exceptions only in socket handler
+        // but i didn't write an client code to process that exception
     } catch( std::exception& e ) {
         std::cout << e.what() << ". Terminate...\n";
-               
     }
 }

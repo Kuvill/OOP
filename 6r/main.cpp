@@ -18,27 +18,14 @@ int main() {
         }
 
         std::string buf;
-        while( std::getline( buf ) ) {
-            if( buf == "undo " )
+        while( std::getline( std::cin, buf ) ) {
+            if( buf == "undo" )
                 keyboard.undo();
-            else( buf = "redo" )
-                keyboard.redo
+            else if( buf == "redo" )
+                keyboard.redo();
             else
                 keyboard.pressKey(buf);
         }
-        
-        keyboard.pressKey("a");
-        keyboard.pressKey("b");
-        keyboard.pressKey("c");
-        keyboard.undo();
-        keyboard.undo();
-        keyboard.redo();
-        keyboard.pressKey("ctrl++");
-        keyboard.pressKey("ctrl+-");
-        keyboard.pressKey("ctrl+p");
-        keyboard.pressKey("d");
-        keyboard.undo();
-        keyboard.undo();
         
         keyboard.saveState("keyboard_state.json");
         

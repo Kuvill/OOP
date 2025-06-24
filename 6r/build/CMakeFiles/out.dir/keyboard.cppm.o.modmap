@@ -1,4 +1,0 @@
--x c++-module
--fmodule-output=CMakeFiles/out.dir/Keyboard.pcm
--fmodule-file=Commands=CMakeFiles/out.dir/Commands.pcm
--fmodule-file=Save=CMakeFiles/out.dir/Save.pcm

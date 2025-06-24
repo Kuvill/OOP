@@ -80,11 +80,17 @@ public:
 };
 
 int main() {
-	Printer::Print( "font.txt", "HELLO", Color::Red, '*');
+    try{
+        Printer::Print( "font.txt", "HELLO", Color::Red, '*');
 
-	std::cout << '\n';
+        std::cout << '\n';
 
-    Printer myPrinter("small_font.txt", Color::Red);
-    myPrinter.print("ABC");
-    return 0;
+        Printer myPrinter("small_font.txt", Color::Red);
+        myPrinter.print("ABC");
+        return 0;
+
+    } catch( std::exception &e ) {
+        std::cout << "error occured: " << e.what() << '\n';
+        return 1;
+    }
 }

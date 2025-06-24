@@ -22,6 +22,8 @@ public:
     virtual unsigned int getUptime();
 };
 
+// --------------
+
 class RecordItemNotified : public RecordItem, public SimpleNotifyDataChanged {
 public:
     RecordItemNotified( const RecordItem& record ) : RecordItem(record) {}
@@ -37,6 +39,8 @@ public:
     void setUptime( unsigned int ) override;
     unsigned int getUptime() override;
 };
+
+// --------------
 
 class RecordItemControable : public RecordItem, public SimpleNotifyDataChanging {
 public:

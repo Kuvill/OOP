@@ -1,0 +1,59 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/out.dir/classes1.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/7Aly/classes1.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/classes2.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/7Aly/classes2.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/out.dir/injector.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "all_my_modules",
+			"relative-directory" : "",
+			"source" : "/home/kuvil/Project/University/OOP/practice/7Aly/injector.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+	"dir-cur-src" : "/home/kuvil/Project/University/OOP/practice/7Aly",
+	"dir-top-bld" : "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+	"dir-top-src" : "/home/kuvil/Project/University/OOP/practice/7Aly",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/kuvil/Project/University/OOP/practice/7Aly/build/CMakeFiles/out.dir",
+	"sources" : 
+	{
+		"CMakeFiles/out.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/kuvil/Project/University/OOP/practice/7Aly/main.cpp"
+		}
+	}
+}

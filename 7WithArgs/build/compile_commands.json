@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/main.cpp.o.modmap -o CMakeFiles/out.dir/main.cpp.o -c /home/kuvil/Project/University/OOP/practice/7Aly/main.cpp",
+  "file": "/home/kuvil/Project/University/OOP/practice/7Aly/main.cpp",
+  "output": "CMakeFiles/out.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/injector.cppm.o.modmap -o CMakeFiles/out.dir/injector.cppm.o -c /home/kuvil/Project/University/OOP/practice/7Aly/injector.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/7Aly/injector.cppm",
+  "output": "CMakeFiles/out.dir/injector.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/classes1.cppm.o.modmap -o CMakeFiles/out.dir/classes1.cppm.o -c /home/kuvil/Project/University/OOP/practice/7Aly/classes1.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/7Aly/classes1.cppm",
+  "output": "CMakeFiles/out.dir/classes1.cppm.o"
+},
+{
+  "directory": "/home/kuvil/Project/University/OOP/practice/7Aly/build",
+  "command": "/usr/bin/clang++ -std=gnu++23 -g @CMakeFiles/out.dir/classes2.cppm.o.modmap -o CMakeFiles/out.dir/classes2.cppm.o -c /home/kuvil/Project/University/OOP/practice/7Aly/classes2.cppm",
+  "file": "/home/kuvil/Project/University/OOP/practice/7Aly/classes2.cppm",
+  "output": "CMakeFiles/out.dir/classes2.cppm.o"
+}
+]
